@@ -1,0 +1,8 @@
+# secrets and local data: never commit or share these
+backend/.jwt_secret
+backend/vyomang.db
+client_secret*.json
+.env
+venv/
+__pycache__/
+*.pyc
